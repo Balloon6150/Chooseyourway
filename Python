@@ -1,0 +1,130 @@
+print("Welcome to my choose your adventure game.")
+print("1. Look around the cell")
+print("3. Do nothing and wait")
+First = input("You wake up in a prison cell. The room is stale and grey and silienc runs ranpant. What do you do?")
+if First == "1":
+    print("1. Search the matress ")
+    print("2. Try to take the Pipe")
+    print("3. Do nothing")
+    A = input("An old matress sit on the ground, next to it there is a sink with a loose pipe and a window with 3 strong bars 10 feet off the floor. What do you do.")
+    # A is not complete
+    if A == "1":
+        print("1. Yell for help")
+        print("2. Try to take the pipe")
+        A1 = input("You find a small knife under the pillow? Now what do you do")
+        if A1 == "1":
+            print("1. Hide under the bed")
+            print("2. Continue yelling for help")
+            print("3. Try to take the pipe")
+            A11 = input(" A light in the distance turns on. What do you do?")
+            if A11 == "1":
+                print("1. Attack with the knife")
+                print("2. Yell for help")
+                print("3. Do nothing")
+                A111 = input("A person is comes into the room! What do you do?")
+                if A111 == "1":
+                    print("You swiftly attack stabbing their ankle and slitting their throat and sneakily walk out of prison in the guards uniform.")
+                if A111 == "2":
+                    print(" Oops, Game Over. Restart Python code to play again!")
+                if A111 == "3":
+                    print("Oops, Game Over. Restart Python code to play again!")
+            if A11 == "2":
+                print("1. Try to attack")
+                print("2. Do nothing")
+                print("3. Yell for help")
+                A112 = input("Multiple people is comes into the room! What do you do?")
+                if A112 == "1":
+                    print("Oops, Game Over. Restart Python code to play again!")
+                if A112 == "2":
+                    print("Oops, Game Over. Restart Python code to play again!")
+                if A112 == "3":
+                    print("Oops, Game Over. Restart Python code to play again!")
+            if A11 == "3":
+                print("1. Attack with knife")
+                print("2. Attack with pipe")
+                print("3. Do nothing")
+                A113 = input(" As you take the pipe a couple people is comes into the room! What do you do?")
+                if A113 == "1":
+                    print("Oops, Game Over. Restart Python code to play again!")
+                if A113 == "2":
+                    print("Oops, Game Over. Restart Python code to play again!")
+                if A113 == "3":
+                    print("Oops, Game Over. Restart Python code to play again!")
+        if A1 == "2":
+            print("1. Get the thing inside out")
+            print("2. Do nothing")
+            print("3. Carve the pipe into a key")
+            A12 = input("You take the loose pcb pipe. Something rattles inside")
+            if A12 == "1":
+                A121 = input("A rat exits the pipe scaring the shit out of you. Oops, Game Over. Restart Python code to play again!")
+            if A12 == "2":
+                A122 = input(" A rat exits the pipe scaring the shit out of you. Oops, Game Over. Restart Python code to play again!")
+            if A12 == "3":
+                print ("1. Yell for help")
+                print ("2. Unlock the cell")
+                A123 = input("You carve a key. What do you do")
+                if A123 == "1":
+                    print("A guard enters and kills you")
+                    print("Oops, Game Over. Restart Python code to play again!")
+                if A123 == "2":
+                    print("You quetly escape the cell")
+    if A == "2":
+        print("1. Search the matress")
+        print("2. Yell for help")
+        print("3. Do nothing")
+        A2 = input("You easily unscrew the pipe, and you hear a rattle noise inside.")
+        if A2 == "1":
+            print("1. ")
+            print("2. ")
+            print("3. ")
+            A21 = input("")
+            if A21 == "1":
+                print ("1. ")
+                print ("2. ")
+                print ("3. ")
+        if A2 == "2":
+            print("1. ")
+            print("2. ")
+            print("3. ")
+            A22 = input("")
+            if A22 == "1":
+                print ("1. ")
+                print ("2. ")
+                print ("3. ")
+        if A2 == "3":
+            print("1. ")
+            print("2. ")
+            print("3. ")
+            A23 = input("")
+            if A23 == "1":
+                print ("1. ")
+                print ("2. ")
+                print ("3. ")
+    if A == "3":
+        print("1. Search the matress")
+        print("2. Continue doing nothing")
+        A3 = input("Nothing happens")
+        if A3 == "1":
+            print("1. Try to take the pipe")
+            print("2. Look around one more time")
+            A31 = input("You find a knife, what do you do")
+            if A31 == "1":
+                print ("A mouse crawls out of the pipe and scares the shit out of you. You faint, restart the python code to retry.")
+            if A31 == "2":
+                print("You find the ceiling bars have opened up mysterously.")
+                A312 = input("Do you crawl out? Y/N")
+                if A312 == "Y":
+                    print("You escape the building succesufully!")
+                if A312 == "N":
+                    print("You sit there in denial. Your life is a lie. Birds probabably arent real. As time passes by you  still decide to do nothing. Your soul was just trying to experiment but it leaves your body waiting for nothing. Eventually your soul leaves your body as the body goes insane. ")
+        if A3 == "2":
+            print("1. Stop ")
+            print("2. Stop ")
+            print("3. Stop ")
+            A32 = input("Seriously just gonna do nothing. Your wasting my time ")
+
+if First == "3":
+    print("1. You have no choice but to do nothing. As you sit down you start to think about all the times youve gotten out of deadly scenarios. You allready gave up but your soul decides it won't lose.")
+    C = input("You move on...")
+    if C == "1":
+        print("Your soul leaves you body and prepares you to restart. Your soul asks its owner to restart. Start python script to restart.")
